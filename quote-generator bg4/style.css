@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(135deg, pink, purple);
+}
+.container h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 5;
+    color: #fff;
+}
+.quote-box{
+    max-width: 90%;
+    width: 800px;
+    background: #fff;
+    margin: 100px auto 100px;
+    padding: 30px 100px 40px;
+}
+.quote-box p{
+    text-align: center;
+    line-height: 2;
+    font-size: 1.2rem;
+    
+}
+.quote-box h2{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 300px;
+    color: purple;
+}
+.quote-box button{
+    margin: 20px 256px 12px;
+    padding: 8px 12px;
+    background-color: rgba(236, 136, 4, 0.966);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
