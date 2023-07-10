@@ -9,9 +9,6 @@ async function randomQuote(){
     const data = await res.json();
     console.log(data.quote)
     const random = Math.floor(Math.random() * data);
-    
-
-    
 
    quote.innerHTML = data.quote;
    quoteAuthor.innerHTML =  data.author;
