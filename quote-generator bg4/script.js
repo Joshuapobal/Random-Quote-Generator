@@ -10,8 +10,8 @@ async function randomQuote(){
     console.log(data.quote)
     const random = Math.floor(Math.random() * data);
     
-    // let random_quote = data[random];
-    // let random_author  = data[random].author;
+
+    
 
    quote.innerHTML = data.quote;
    quoteAuthor.innerHTML =  data.author;
